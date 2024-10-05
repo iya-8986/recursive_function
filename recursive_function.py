@@ -33,7 +33,7 @@ while True:
             return (base**(exponent-1)) * (base) 
 
         output = power(values[1])
-        print(output)
+        print(f"The value of {values[0]} raised to {values[1]} is {output}.")
         break
 
     except:
